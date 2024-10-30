@@ -1,0 +1,31 @@
+.wrap label{
+    font-weight:600;
+}
+.wrap label span{
+    color: red !important;
+}
+
+.wrap .field_wrapper{
+    font-size: 14px !important;
+}
+.wrap .field_wrapper .store_group{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    /* background: pink; */
+}
+.wrap .field_wrapper .store_group p {
+    width: 100%;
+}
+.wrap .field_wrapper .store_group p input,
+.wrap .field_wrapper .store_group p select{
+    width: 100%;
+}
+
+.error-box {
+    padding: 10px;
+    color: #ff1e1e;
+    border-color: black;
+    border-width: thin;
+    border-style: groove;
+}

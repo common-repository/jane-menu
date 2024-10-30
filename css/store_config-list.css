@@ -1,0 +1,35 @@
+#jane_configuration{
+    position: relative;
+    margin: 0 20px -1px 0;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    box-shadow: 0 0 0 transparent;
+}
+#jane_configuration_content{
+    display: none;
+    padding: 20px;
+    padding-bottom: 0;
+}
+#jane_configuration_control{
+    position: absolute;
+    right: 50px;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    height: auto;
+    margin-bottom: 0;
+    padding: 3px 16px 3px 16px;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #646970;
+    line-height: 1.7;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow .1s linear;
+    cursor: pointer;
+}
+
+.wp-list-table .column-post_type{
+    /* background: pink; */
+    width: 120px;
+}
